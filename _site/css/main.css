@@ -22,6 +22,10 @@ footer {
     border: none;
 }
 
+footer .nav li {
+    padding-left: 20px;
+}
+
 .bottom-rule {
     border-bottom: 1px solid lightgray;
 }
@@ -33,7 +37,6 @@ footer {
        sections will be side-by-side instead of stacked */
     .footer-section {
         margin-bottom: 0;
-        padding-bottom: 0;
         border-bottom: none;
     }
 
@@ -51,7 +54,7 @@ footer {
 
 @media screen and (min-width: 1200px) {
     html, body {
-        width: 1170;
+        width: 1170px;
         margin: 0 auto;
     }
 }
