@@ -1,14 +1,59 @@
-/* Custom styles for wide navigation bar*/
+.no-padding {
+    padding: 0;
+}
+
+/* Footer Styles */
+footer {
+    padding-top: 20px;
+    border-top: 10px solid darkgray;
+    background-color: white;
+}
+
+/* Use line to separate footer sections on mobile devices */
+.footer-section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.navbar-footer {
+    background-color: inherit;
+    border-radius: 0;
+    border: none;
+}
+
+.bottom-rule {
+    border-bottom: 1px solid lightgray;
+}
+
+
+/* When the screen is large enough for col-sm (screen is not super tiny) */
 @media screen and (min-width: 768px) {
-    /* Add vertical line between nav elements */
-    .nav > li {
-        border-left: 1px solid #777;
+    /* Hide the line separating footer sections on non-mobile devices since the 
+       sections will be side-by-side instead of stacked */
+    .footer-section {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    .navbar-footer {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    footer .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
     }
 }
 
-@media screen and (min-width: 960px) {
-    html {
-        width: 960px;
-        margin: auto;
+@media screen and (min-width: 1200px) {
+    html, body {
+        width: 1170;
+        margin: 0 auto;
     }
 }
+
+

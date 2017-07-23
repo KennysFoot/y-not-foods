@@ -5,21 +5,23 @@
     </a>
     -->
     <nav class="navbar navbar-default">
-        <div class="navbar-header">
-            <!-- Dropdown menu button for smaller screens -->
-            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                <span class="sr-only">Toggle Navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="{{ site.baseurl }}" class="navbar-brand">Y-Not Foods</span></a>
-        </div>
-        <!-- Navigation Links -->
-        <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                {% include nav-links.html %}
-            </ul>
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Dropdown menu button for smaller screens -->
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="{{ site.baseurl }}/" class="navbar-brand">Y-Not Foods</span></a>
+            </div>
+            <!-- Navigation Links -->
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    {% include nav-links.html %}
+                </ul>
+            </div>
         </div>
     </nav>
 </header>
