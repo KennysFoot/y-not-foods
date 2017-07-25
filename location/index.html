@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="container">
-    <div class="row bottom-rule">
+    <div class="row">
         <div class="col-sm-6 footer-section">
             <strong>Hours of Operation</strong><br>
             <div class="row">
@@ -37,22 +37,11 @@ layout: default
         </div>
     </div>
 
-    <div id="map"></div>
-    <script>
-      function initMap() {
-        var uluru = {lat: 49.8929119, lng: -97.1540434};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 17,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzEhg8G4N3i0uCnsdRStIYxwpE-0fhHUw&callback=initMap">
-    </script>
-
+    <iframe
+    width="100%"
+    height="450"
+    frameborder="0" style="border:0"
+    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBO8EqhHKPpDXfbSarvFtGkBpI_elcG46I
+        &q=Y-Not Foods,Winnipeg+MB" allowfullscreen>
+    </iframe>
 </div>
