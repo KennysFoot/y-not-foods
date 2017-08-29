@@ -34,10 +34,14 @@ footer .nav li {
     border-bottom: 1px solid lightgray;
 }
 
+.mobile-margin{
+  margin-top: 30px;
+}
+
 
 /* When the screen is large enough for col-sm (screen is not super tiny) */
 @media screen and (min-width: 768px) {
-    /* Hide the line separating footer sections on non-mobile devices since the 
+    /* Hide the line separating footer sections on non-mobile devices since the
        sections will be side-by-side instead of stacked */
     .footer-section {
         margin-bottom: 0;
@@ -54,6 +58,10 @@ footer .nav li {
         float: none;
         vertical-align: top;
     }
+
+    .mobile-margin{
+      margin-top: 0px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -62,5 +70,3 @@ footer .nav li {
         margin: 0 auto;
     }
 }
-
-
