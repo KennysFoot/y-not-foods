@@ -11,3 +11,7 @@ Mrs. Mrs. Seo
 
 # Korean Students
 Ask dad for translation once we finish the website
+
+# To run
+unix: jekyll serve
+http://localhost:4000/y-not-foods/
