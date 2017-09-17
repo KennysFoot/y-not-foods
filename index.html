@@ -2,18 +2,32 @@
 layout: default
 ---
 
-<div class="container no-padding">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12">
-            <img src="{{ site.baseurl }}/pictures/sunnyAndyong.JPG" class="center-block img-responsive" alt="Owners in front of store mural">
-        </div>
-    </div>
+<div class="w3-content w3-display-container">
+  <img class="mySlides center-block img-responsive" src="{{ site.baseurl }}/pictures/sunnyAndyong.JPG">
+  <img class="mySlides center-block img-responsive" src="{{ site.baseurl }}/pictures/momsolo.JPG" >
+  <img class="mySlides center-block img-responsive" src="{{ site.baseurl }}/pictures/folgers.JPG" >
+  <img class="mySlides center-block img-responsive" src="{{ site.baseurl }}/pictures/atm.JPG" >
+  <img class="mySlides center-block img-responsive" src="{{ site.baseurl }}/pictures/fruitsAndveg.JPG" >
+
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+  </div>
+
+<script type="text/javascript">
+currentDiv(1);
+</script>
 </div>
 
 <div class="container">
     <h2>Y-Not Foods</h2>
     <p class="text-justify">
-        Y-Not Foods is a neighbourhood corner store located across from the Duckworth Centre at the University of Winnipeg.
+        Y-Not Foods is a neighbourhood corner store located across the street from the Duckworth Centre at the University of Winnipeg.
         <br>Our convenient location is perfect for students looking for a snack before class, a post-workout drink, and much more!<br />
         <br>We are delighted to be a part of Winnipeg’s Downtown community and aim to provide you with the best service possible!<br />
         <br><small>-Yong &amp; Sunny </small>
