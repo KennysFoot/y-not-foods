@@ -10,6 +10,8 @@
     margin-top: 30px;
 }
 
+.item{height:30vh;}
+
 /* Footer Styles */
 footer {
     padding-top: 20px;
@@ -67,15 +69,27 @@ footer .nav li {
       margin-top: 0px;
     }
 
-    .mySlides {display:none; height:75vh;}
+    .item{height:75vh;
+    }
+
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .thumbnail a>img, .thumbnail>img {
+    width:100%;
+    margin: 0 auto;
+      }
 }
-  /*Dont let the badges change size*/
-    .w3-left, .w3-right, .w3-badge {cursor:pointer}
-    .w3-badge {height:13px;width:13px;padding:0}
 
 @media screen and (min-width: 992px) {
     html, body, .container {
         width: 970px;
         margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (min-height:1024px) {
+  .item{height:45vh;
+  }
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .thumbnail a>img, .thumbnail>img {
+  width:100%;
+  margin: 0 auto;
     }
 }
