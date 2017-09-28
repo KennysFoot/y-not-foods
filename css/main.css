@@ -6,9 +6,6 @@
     margin-top: 30px;
 }
 
-.item {
-    height: 33vh;
-}
 
 /* Footer Styles */
 footer {
@@ -42,6 +39,10 @@ footer .nav li {
   margin-top: 30px;
 }
 
+.item {
+    max-height: 625px;
+}
+
 
 /* When the screen is large enough for col-sm (screen is not super tiny) */
 @media screen and (min-width: 768px) {
@@ -67,14 +68,6 @@ footer .nav li {
       margin-top: 0px;
     }
 
-    .item {
-        height: 70vh;
-    }
-
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .thumbnail a>img, .thumbnail>img {
-        width: 100%;
-        margin: 0 auto;
-    }
 }
 
 @media screen and (min-width: 992px) {
@@ -84,7 +77,7 @@ footer .nav li {
     }
 
     .item {
-        max-height: 625px;
+        max-height: 550px;
     }
 }
 
