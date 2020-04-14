@@ -14,6 +14,13 @@
     height: 50px;
 }
 
+.covid-message{
+    color:red;
+}
+
+.info-padding{
+    padding-bottom: 10px;
+}
 
 /* Footer Styles */
 footer {
